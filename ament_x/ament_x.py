@@ -1,6 +1,8 @@
+
+from ros2pkg.api.build_type import BaseBuildType
 from ros2pkg.api.create import create_folder
 from ros2pkg.api.create import create_template_file
-from ros2pkg.build_type.base_build_type import BaseBuildType
+
 
 class AmentXBuildType(BaseBuildType):
 
