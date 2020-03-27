@@ -19,15 +19,15 @@ setup(
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [
-        ],
-        'ros2pkg.build_type': [
-            'ament_x = ament_x.ament_x:AmentXBuildType',
-        ],
+      'console_scripts': [
+      ],
+      'ros2pkg.build_type': [
+        'ament_x = ament_x.ament_x:AmentXBuildType',
+      ],
     },
     package_data={
-        'ament_x': [
-            'resource/**/*',
-        ],
+      'ament_x': [
+        'resource/**/*',
+      ],
     },
 )
